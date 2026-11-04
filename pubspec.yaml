@@ -1,0 +1,32 @@
+name: ranadoro
+description: "Un timer cozy que no te apura."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^22.3.3
+  shared_preferences: ^2.5.6
+  timezone: ^0.11.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/licenses/
+  fonts:
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/Caveat-wght.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-opsz-wght.ttf
